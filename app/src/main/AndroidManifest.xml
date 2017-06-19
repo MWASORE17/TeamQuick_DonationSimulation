@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.simulasi_donasi">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Simulasi Donasi"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".view.activity.SplashScreen"
+            android:label="Simulasi Donasi"
+            android:theme="@style/Splashscreen"
+            android:screenOrientation="portrait"
+            android:noHistory="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.activity.MainActivity"
+            android:label="Simulasi Donasi">
+        </activity>
+        <activity android:name=".view.activity.AuthActivity"
+            android:label="Simulasi Donasi"></activity>
+        <activity android:name=".view.activity.ParentActivity"></activity>
+        <activity android:name=".view.activity.DonateActivity"
+            android:label="Donate"></activity>
+        <activity android:name=".view.activity.DonateDetailActivity"
+            android:label="Donate Detail"></activity>
+        <activity android:name=".view.activity.PrintActivity"
+            android:label="Bukti Transaksi"></activity>
+        <activity android:name=".view.activity.Dompet"
+            android:label="Dompet"></activity>
+        <activity android:name=".view.activity.QuickDonateActivity"
+            android:label="Quick Donate"></activity>
+    </application>
+</manifest>

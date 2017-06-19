@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">simulasi-donasi</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="spinner_array">
+        <item>All Categories</item>
+        <item>Bencana Alam </item>
+        <item>Operasi</item>
+        <item>Pembangunan Tempat Ibadah</item>
+        <item>Sekolah</item>
+        <item>Bantuan Sosial</item>
+    </string-array>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="items">
+        <item>Semua Kategori</item>
+        <item>Bencana Alam</item>
+        <item>Operasi</item>
+        <item>Pembangunan</item>
+        <item>Sumbangan</item>
+    </string-array>
+
+</resources>
